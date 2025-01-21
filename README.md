@@ -53,7 +53,7 @@ GROUP BY
     p.BRAND 
 ORDER BY  
     receipt_count DESC 
-LIMIT 5;
+LIMIT 5; ```
 
  ### Top 5 Brands by Sales Among Users with Accounts 6+ Months
 **SQL Query**:
@@ -73,7 +73,7 @@ GROUP BY
     p.BRAND
 ORDER BY 
     total_sales DESC
-LIMIT 5;
+LIMIT 5;```
 
 ### Percentage of Sales in Health & Wellness Category by Generation
 **SQL Query**:
@@ -125,4 +125,4 @@ FROM
     GENERATION_SALES g
 JOIN 
     TOTAL_SALES t ON g.generation = t.generation;
-
+```
