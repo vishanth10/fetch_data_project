@@ -53,7 +53,7 @@ GROUP BY
     p.BRAND 
 ORDER BY  
     receipt_count DESC 
-LIMIT 5; ```
+LIMIT 5; '''
 
  ### Top 5 Brands by Sales Among Users with Accounts 6+ Months
 **SQL Query**:
