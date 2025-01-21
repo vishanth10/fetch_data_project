@@ -1,5 +1,28 @@
 # Fetch Data Analysis Summary
 
+## SLACK / EMAIL MESSAGE
+
+Subject: Data Insights and Key Findings
+
+Hi
+
+Here’s a quick summary of my findings:
+
+**Key Data Quality Issues**
+**Missing Data:** 11.52% of BARCODE and 92.02% of CATEGORY_4 are missing.
+**Ambiguities:** FINAL_QUANTITY contains non-numeric values like "zero".
+**Inconsistent Types:** Dates are stored as strings, impacting time-based analyses.
+Insights
+**Growth**: Fetch saw peak user growth in 2017 (+820%), but signups declined in 2023 (-42%) and 2024 (-24%).
+Top Brands: Brand A leads in receipts scanned; Brand X dominates sales for long-term users.
+**Generations:** Millennials drive 45% of Health & Wellness sales, followed by Gen X at 30%.
+**Request for Action**
+Clarify ambiguous values (e.g., "zero" in FINAL_QUANTITY) and product hierarchy.
+Address gaps in BARCODE and BIRTH_DATE data.
+Provide marketing input on 2023-24 decline.
+
+Let me know when we can discuss!
+
 ## 1. Data Quality Issues and Cleaning
 
 ### Issues Identified
